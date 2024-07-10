@@ -13,6 +13,10 @@
     font-family: "Azeret Mono", monospace;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 h2{
     font-size: 32px;
     font-weight: 800;
@@ -204,7 +208,7 @@ h2{
 }
 /* hero section styles ended */
 
-/* inspiration section started */
+/* inspiration section styles started */
 #inspiration_section{
     width: 1140px;
     height: 827px;
@@ -234,10 +238,10 @@ h2{
 #inspiration_section .video_container video{
     width: 100%;
 }
-/* inspiration section ended */
+/* inspiration section styles ended */
 
-/* target section started and
-current target section started */
+/* target section styles started and
+current target section styles started */
 
 #target_section{
     width: 1140px;
@@ -318,9 +322,9 @@ current target section started */
     background: rgba(255, 223, 0, 0.05);
 }
 
-/* current target section ended */
+/* current target section styles ended */
 
-/* next target section started */
+/* next target section styles started */
 #next_target_section{
     margin-top: 110px;
 }
@@ -385,9 +389,10 @@ current target section started */
     text-align: left;
     text-decoration-line: underline;
 }
-/* next target section ended */
+/* next target section styles ended */
+/* target section styles ended */
 
-/* support section started */
+/* support section styles started */
 #support_section{
     width: 1140px;
     height: 313px;
@@ -406,7 +411,6 @@ current target section started */
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1000px;
 }
 
 #support_section h2{
@@ -457,5 +461,33 @@ current target section started */
     letter-spacing: 0%;
     text-align: center;
 }
-/* support section ended */
-/* target section ended */
+/* support section styles ended */
+
+
+/* footer section styles started */
+#footer_section{
+    width: 1440px;
+    height: 100px;
+    margin: 80px auto 0px;
+    padding: 32px 150px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer_section p{
+    color: var(--darkOne);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#footer_section .footer_img img{
+    width: 36px;
+    height: 36px;
+    margin-left: 24px;
+}
+/* footer section styles ended */
