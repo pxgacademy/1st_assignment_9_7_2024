@@ -202,3 +202,35 @@
         height: 100%;
     }
     /* hero section styles ended */
+
+    /* inspiration section started */
+    #inspiration_section{
+        width: 1140px;
+        height: 827px;
+        margin: 0 auto;
+        margin-top: 88px;
+    }
+    #inspiration_section h2{
+        text-align: center;
+    }
+    #inspiration_section p{
+        color: var(--darkTwo);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin: 24px 0px 48px 0px;
+    }
+    #inspiration_section .video_container{
+        width: 1140px;
+        height: 666px;
+        padding: 32px;
+        box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.2);
+        border-radius: 16px;
+    }
+    #inspiration_section .video_container video{
+        width: 100%;
+    }
+    /* inspiration section ended */
